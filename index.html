@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+    <title>Drum Kit</title>
+
+    <main>
+      <section data-name="keys" class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">hijab</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">ride</span>
+        </div>
+        <div data-key="74" class="key">
+          <kbd>J</kbd>
+          <span class="sound">snare</span>
+        </div>
+        <div data-key="75" class="key">
+          <kbd>K</kbd>
+          <span class="sound">tom</span>
+        </div>
+        <div data-key="76" class="key">
+          <kbd>L</kbd>
+          <span class="sound">tink</span>
+        </div>
+      </section>
+    </main>
+    <section>
+      <audio data-key="65" src="audios/clap.mp3"></audio>
+      <audio data-key="83" src="audios/jab.mp3"></audio>
+      <audio data-key="68" src="audios/kick.mp3"></audio>
+      <audio data-key="70" src="audios/hat.mp3"></audio>
+      <audio data-key="71" src="audios/boom.wav"></audio>
+      <audio data-key="72" src="audios/ride.mp3"></audio>
+      <audio data-key="74" src="audios/snare.mp3"></audio>
+      <audio data-key="75" src="audios/stomp.wav"></audio>
+      <audio data-key="76" src="audios/tink.mp3"></audio>
+    </section>
+  </head>
+  <body></body>
+</html>
