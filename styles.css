@@ -53,6 +53,7 @@ section.keys {
   cursor: pointer;
   border-radius: 5px;
   padding: 5px;
+  transition: all 0.1s;
 
   & kbd {
     font-size: 1.5rem;
@@ -65,4 +66,10 @@ section.keys {
     font-weight: bold;
     color: #d7a900;
   }
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 3px 5px #ffc600;
 }
